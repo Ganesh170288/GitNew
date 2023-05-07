@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: testRunnerforHooks.TestRunnerForHooks
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.343 sec <<< FAILURE!
+ #2(check login functionality)  Time elapsed: 0.029 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at stepsforhooks.StepsForHooks.browserTeardown2(StepsForHooks.java:48)
+
